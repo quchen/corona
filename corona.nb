@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     80364,       1704]
-NotebookOptionsPosition[     79494,       1681]
-NotebookOutlinePosition[     79857,       1697]
-CellTagsIndexPosition[     79814,       1694]
+NotebookDataLength[     81015,       1724]
+NotebookOptionsPosition[     80050,       1700]
+NotebookOutlinePosition[     80413,       1716]
+CellTagsIndexPosition[     80370,       1713]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -814,33 +814,51 @@ Cell[BoxData[{
              RowBox[{"ToString", "[", "daysToExtrapolate", "]"}], "<>", 
              "\"\< days extrapolation\>\""}]}]}], "]"}]}]}], ";", 
        "\[IndentingNewLine]", 
-       RowBox[{"Column", "@", 
-        RowBox[{"{", "\[IndentingNewLine]", 
-         RowBox[{
-          RowBox[{"\"\<Doubling every \>\"", "<>", 
-           RowBox[{"ToString", "[", 
-            RowBox[{"Round", "[", 
-             RowBox[{
-              FractionBox[
-               RowBox[{"Log", "[", "2", "]"}], 
-               RowBox[{"a", "/.", 
-                RowBox[{"nlm", "[", "\"\<BestFitParameters\>\"", "]"}]}]], 
-              ",", "0.1"}], "]"}], "]"}], "<>", "\"\< days\>\""}], ",", 
-          "\[IndentingNewLine]", 
-          RowBox[{"nlm", "[", "\"\<ParameterTable\>\"", "]"}], ",", 
-          "\[IndentingNewLine]", 
-          RowBox[{"combinedShow", "[", 
-           RowBox[{"dataPlot", ",", " ", "modelPlot"}], "]"}], ",", 
-          "\[IndentingNewLine]", 
-          RowBox[{"combinedShow", "[", 
-           RowBox[{"dataLogPlot", ",", " ", "modelLogPlot"}], "]"}]}], 
-         "\[IndentingNewLine]", "}"}]}]}]}], "\[IndentingNewLine]", "]"}]}]}],
-   ";"}], "\[IndentingNewLine]", 
- RowBox[{"logExtrapolation", "[", 
+       RowBox[{"{", "\[IndentingNewLine]", 
+        RowBox[{"nlm", ",", "\[IndentingNewLine]", 
+         RowBox[{"\"\<Doubling every \>\"", "<>", 
+          RowBox[{"ToString", "[", 
+           RowBox[{"Round", "[", 
+            RowBox[{
+             FractionBox[
+              RowBox[{"Log", "[", "2", "]"}], 
+              RowBox[{"a", "/.", 
+               RowBox[{"nlm", "[", "\"\<BestFitParameters\>\"", "]"}]}]], ",",
+              "0.1"}], "]"}], "]"}], "<>", "\"\< days\>\""}], ",", 
+         "\[IndentingNewLine]", 
+         RowBox[{"nlm", "[", "\"\<ParameterTable\>\"", "]"}], ",", 
+         "\[IndentingNewLine]", 
+         RowBox[{"combinedShow", "[", 
+          RowBox[{"dataPlot", ",", " ", "modelPlot"}], "]"}], ",", 
+         "\[IndentingNewLine]", 
+         RowBox[{"combinedShow", "[", 
+          RowBox[{"dataLogPlot", ",", " ", "modelLogPlot"}], "]"}]}], 
+        "\[IndentingNewLine]", "}"}]}]}], "\[IndentingNewLine]", "]"}]}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"result", "=", 
+   RowBox[{"logExtrapolation", "[", 
+    RowBox[{
+     RowBox[{"timeSeries", "[", "germanConfirmed", "]"}], ",", 
+     "\"\<2020-02-17\>\"", ",", "5"}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{"result", "/.", 
   RowBox[{
-   RowBox[{"timeSeries", "[", "germanConfirmed", "]"}], ",", 
-   "\"\<2020-02-17\>\"", ",", "5"}], "]"}]}], "Input",
- CellLabel->"In[51]:=",ExpressionUUID->"3a6af54e-8b92-443c-a1db-7cd3cfdb5ec2"],
+   RowBox[{"{", 
+    RowBox[{"nlm_", ",", "__"}], "}"}], "\[Rule]", 
+   RowBox[{"nlm", "[", "78", "]"}]}]}], "\[IndentingNewLine]", 
+ RowBox[{"result", "/.", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"_", ",", "rest__"}], "}"}], "\[Rule]", 
+   RowBox[{"Column", "[", 
+    RowBox[{"List", "[", "rest", "]"}], "]"}]}]}]}], "Input",
+ CellLabel->
+  "In[140]:=",ExpressionUUID->"3a6af54e-8b92-443c-a1db-7cd3cfdb5ec2"],
+
+Cell[BoxData["15864.65392679928`"], "Output",
+ CellLabel->
+  "Out[142]=",ExpressionUUID->"8d4d17b7-507f-4783-b869-9166ccca2277"],
 
 Cell[BoxData[
  TagBox[GridBox[{
@@ -1015,7 +1033,7 @@ E+5/4xC8ej1wVRALDx0yknfhA3s/4S9qZDvajixyi/YBCsWBAxHBLHD7+hKl
 7T5gd4PVHq4zLNj0eXzSCfsAE1qzRz3bD4q/e/QlfID5oE7aubMs+GUdbQrP
 +QBr1/xWhLBgF5POpV/2AY7fNy3/Y7tqKlOVq/ED/gfihUCg
                "]]}, 
-             Annotation[#, "Charting`Private`Tag$18112#1"]& ]}}, {}, {}}}, {
+             Annotation[#, "Charting`Private`Tag$53955#1"]& ]}}, {}, {}}}, {
         ImageSize -> Large, PlotRange -> All, PlotLabel -> 
          FormBox["\"5 days extrapolation\"", TraditionalForm], 
          DisplayFunction -> Identity, PlotRangePadding -> {{
@@ -1366,7 +1384,7 @@ QkTgvmAmNHcvhUa3wjM7JAQGo/vqDVIo6D3/4VlGKAFWYalSbx+F4pVZAbXh
 f+24qXVrf/J9WQyB4D7PkxlpFHZ57vl3VEZgS+yvbUinYJafwDwgJxAzbj4z
 q3X9gMKeGUfgP06fDgI=
                "]]}, 
-             Annotation[#, "Charting`Private`Tag$18592#1"]& ]}}, {}, {}}}, {
+             Annotation[#, "Charting`Private`Tag$54435#1"]& ]}}, {}, {}}}, {
         ImageSize -> Large, PlotRange -> All, PlotLabel -> 
          FormBox["\"5 days extrapolation\"", TraditionalForm], 
          DisplayFunction -> Identity, GridLines -> {None, None}, 
@@ -1676,11 +1694,12 @@ q3X9gMKeGUfgP06fDgI=
    GridBoxAlignment->{"Columns" -> {{Left}}},
    GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
   "Column"]], "Output",
- CellLabel->"Out[52]=",ExpressionUUID->"b5b1fae8-1683-422d-9a0c-6eda099a8a36"]
+ CellLabel->
+  "Out[143]=",ExpressionUUID->"3d5f1566-22dc-4019-b86c-e53cdb4c6201"]
 }, Open  ]]
 },
 WindowSize->{1278, 1359},
-WindowMargins->{{6, Automatic}, {5, Automatic}},
+WindowMargins->{{8, Automatic}, {5, Automatic}},
 TrackCellChangeTimes->False,
 FrontEndVersion->"11.3 for Linux x86 (64-bit) (March 6, 2018)",
 StyleDefinitions->"Default.nb"
@@ -1703,8 +1722,9 @@ Cell[5863, 171, 479, 12, 35, "Output",ExpressionUUID->"fef9751e-593c-4c70-92e3-6
 Cell[6345, 185, 22948, 484, 377, "Output",ExpressionUUID->"c146ad67-4185-4eda-a1f6-650bb2349628"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[29330, 674, 7076, 168, 645, "Input",ExpressionUUID->"3a6af54e-8b92-443c-a1db-7cd3cfdb5ec2"],
-Cell[36409, 844, 43069, 834, 826, "Output",ExpressionUUID->"b5b1fae8-1683-422d-9a0c-6eda099a8a36"]
+Cell[29330, 674, 7497, 182, 761, "Input",ExpressionUUID->"3a6af54e-8b92-443c-a1db-7cd3cfdb5ec2"],
+Cell[36830, 858, 128, 2, 35, "Output",ExpressionUUID->"8d4d17b7-507f-4783-b869-9166ccca2277"],
+Cell[36961, 862, 43073, 835, 826, "Output",ExpressionUUID->"3d5f1566-22dc-4019-b86c-e53cdb4c6201"]
 }, Open  ]]
 }
 ]
