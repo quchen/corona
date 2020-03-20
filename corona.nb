@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     80806,       1719]
-NotebookOptionsPosition[     79936,       1696]
-NotebookOutlinePosition[     80299,       1712]
-CellTagsIndexPosition[     80256,       1709]
+NotebookDataLength[     80365,       1703]
+NotebookOptionsPosition[     79590,       1681]
+NotebookOutlinePosition[     79953,       1697]
+CellTagsIndexPosition[     79910,       1694]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -148,8 +148,7 @@ Cell[BoxData[{
        RowBox[{"{", 
         RowBox[{"day", ",", "5", ",", "100", ",", "7"}], "}"}]}], "]"}], ",", 
      "Automatic"}], "}"}]}], ";"}]}], "Input",
- CellLabel->
-  "In[211]:=",ExpressionUUID->"3cafef72-c1c9-47f2-a2a5-7e73f63e0f77"],
+ CellLabel->"In[66]:=",ExpressionUUID->"3cafef72-c1c9-47f2-a2a5-7e73f63e0f77"],
 
 Cell[CellGroupData[{
 
@@ -171,8 +170,7 @@ Cell[BoxData[
    RowBox[{"ImageSize", "\[Rule]", "Large"}], ",", "\[IndentingNewLine]", 
    RowBox[{"Ticks", "\[Rule]", "ticksWeekly"}]}], "\[IndentingNewLine]", 
   "]"}]], "Input",
- CellLabel->
-  "In[226]:=",ExpressionUUID->"88fbbb6a-2064-4c5d-a0cc-12a384ac1f0b"],
+ CellLabel->"In[81]:=",ExpressionUUID->"88fbbb6a-2064-4c5d-a0cc-12a384ac1f0b"],
 
 Cell[BoxData[
  TemplateBox[{GraphicsBox[{{}, {{{}, {}, {
@@ -660,8 +658,7 @@ AB6Pink=
      RowBox[{#, ",", 
        RowBox[{"Placed", "[", 
          RowBox[{#2, ",", "After"}], "]"}]}], "]"}]& )]], "Output",
- CellLabel->
-  "Out[226]=",ExpressionUUID->"8ccfb8f3-8b34-43ae-9444-6b40646214dc"]
+ CellLabel->"Out[81]=",ExpressionUUID->"3083ae96-47ba-4cc4-a7a3-96b50f347e62"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -839,21 +836,10 @@ Cell[BoxData[{
  RowBox[{"result", "/.", 
   RowBox[{
    RowBox[{"{", 
-    RowBox[{"nlm_", ",", "__"}], "}"}], "\[Rule]", 
-   RowBox[{"nlm", "[", 
-    RowBox[{"77", "+", "7"}], "]"}]}]}], "\[IndentingNewLine]", 
- RowBox[{"result", "/.", 
-  RowBox[{
-   RowBox[{"{", 
     RowBox[{"_", ",", "rest__"}], "}"}], "\[Rule]", 
    RowBox[{"Column", "[", 
     RowBox[{"List", "[", "rest", "]"}], "]"}]}]}]}], "Input",
- CellLabel->
-  "In[227]:=",ExpressionUUID->"3a6af54e-8b92-443c-a1db-7cd3cfdb5ec2"],
-
-Cell[BoxData["70734.73129682906`"], "Output",
- CellLabel->
-  "Out[229]=",ExpressionUUID->"c61965f8-1d94-489a-9573-7bc261d31142"],
+ CellLabel->"In[82]:=",ExpressionUUID->"3a6af54e-8b92-443c-a1db-7cd3cfdb5ec2"],
 
 Cell[BoxData[
  TagBox[GridBox[{
@@ -1029,7 +1015,7 @@ sKF2xujxLUsO2lMkq8afsjF0wICcG8DBvt+i1wqr2OA9LBlPjeOgkrXyiHc1
 GzWHFad4sjnQKFi+1aCGjagdo851VRzcE+T9t8hl2YvjQjfbOfgfpK47NA==
 
                "]]}, 
-             Annotation[#, "Charting`Private`Tag$29605#1"]& ]}}, {}, {}}}, {
+             Annotation[#, "Charting`Private`Tag$11933#1"]& ]}}, {}, {}}}, {
         ImageSize -> Large, PlotRange -> All, PlotLabel -> 
          FormBox["\"5 days extrapolation\"", TraditionalForm], 
          DisplayFunction -> Identity, PlotRangePadding -> {{
@@ -1380,7 +1366,7 @@ ja/OX54b1pFYdcvBtqmKhvfjLFXbWyTkV1oIu67T0Hnb6RnVTGK/aLlrXjUN
 8VWNTSuJav78bfvraLBFVa13H5KwuKxsblNPw8896cXmdhIFDLlZ2TefXLRp
 6mUHif8AJ1Mhgg==
                "]]}, 
-             Annotation[#, "Charting`Private`Tag$30085#1"]& ]}}, {}, {}}}, {
+             Annotation[#, "Charting`Private`Tag$12413#1"]& ]}}, {}, {}}}, {
         ImageSize -> Large, PlotRange -> All, PlotLabel -> 
          FormBox["\"5 days extrapolation\"", TraditionalForm], 
          DisplayFunction -> Identity, GridLines -> {None, None}, 
@@ -1690,12 +1676,11 @@ ja/OX54b1pFYdcvBtqmKhvfjLFXbWyTkV1oIu67T0Hnb6RnVTGK/aLlrXjUN
    GridBoxAlignment->{"Columns" -> {{Left}}},
    GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
   "Column"]], "Output",
- CellLabel->
-  "Out[230]=",ExpressionUUID->"54a3d30b-a5b2-42bc-8963-0f54b644883f"]
+ CellLabel->"Out[84]=",ExpressionUUID->"eafdd03b-0b4f-46d9-a700-c30cd2a23797"]
 }, Open  ]]
 },
 WindowSize->{1278, 1359},
-WindowMargins->{{2, Automatic}, {5, Automatic}},
+WindowMargins->{{3, Automatic}, {5, Automatic}},
 TrackCellChangeTimes->False,
 FrontEndVersion->"11.3 for Linux x86 (64-bit) (March 6, 2018)",
 StyleDefinitions->"Default.nb"
@@ -1711,15 +1696,14 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[558, 20, 4510, 131, 521, "Input",ExpressionUUID->"3cafef72-c1c9-47f2-a2a5-7e73f63e0f77"],
+Cell[558, 20, 4506, 130, 521, "Input",ExpressionUUID->"3cafef72-c1c9-47f2-a2a5-7e73f63e0f77"],
 Cell[CellGroupData[{
-Cell[5093, 155, 844, 19, 193, "Input",ExpressionUUID->"88fbbb6a-2064-4c5d-a0cc-12a384ac1f0b"],
-Cell[5940, 176, 23197, 487, 377, "Output",ExpressionUUID->"8ccfb8f3-8b34-43ae-9444-6b40646214dc"]
+Cell[5089, 154, 840, 18, 193, "Input",ExpressionUUID->"88fbbb6a-2064-4c5d-a0cc-12a384ac1f0b"],
+Cell[5932, 174, 23193, 486, 377, "Output",ExpressionUUID->"3083ae96-47ba-4cc4-a7a3-96b50f347e62"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[29174, 668, 7522, 183, 761, "Input",ExpressionUUID->"3a6af54e-8b92-443c-a1db-7cd3cfdb5ec2"],
-Cell[36699, 853, 128, 2, 35, "Output",ExpressionUUID->"c61965f8-1d94-489a-9573-7bc261d31142"],
-Cell[36830, 857, 43090, 836, 836, "Output",ExpressionUUID->"54a3d30b-a5b2-42bc-8963-0f54b644883f"]
+Cell[29162, 665, 7323, 176, 738, "Input",ExpressionUUID->"3a6af54e-8b92-443c-a1db-7cd3cfdb5ec2"],
+Cell[36488, 843, 43086, 835, 836, "Output",ExpressionUUID->"eafdd03b-0b4f-46d9-a700-c30cd2a23797"]
 }, Open  ]]
 }
 ]
